@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka+One&family=Kenia&family=Martian+Mono&family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+}
+/* NAVEGACION Y TITULO */
+
+header{
+    background: #00ff40;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+#titulo{
+    font-family: kenia;
+    text-align: center;
+    padding: 5px;
+    font-size: 45px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+header nav li a img{
+    margin: 0px 20px;
+    padding: 5px;
+    padding-top: 10px;
+    height: 30px;
+}
+
+header nav li{
+    list-style: none;
+}
+
+header nav li a img:hover{
+    border-bottom: 2px solid #000000;
+}
+
+/* FIN TITULO Y NAVEGACION */
+
+
+/* CONTENIDO */
+
+h2{
+    text-align: center;
+    font-family: fredoka one;
+    padding: 16px;
+}
+p strong{
+    font-family: fredoka one;
+}
+
+p{
+    font-family: roboto;
+    padding: 8px 8px;
+}
+
+.mensaje{
+    text-align: center;
+    margin: 30px 380px;
+    border: #000000 solid 8px;
+    padding: 16px;
+    font-family: martian mono;
+}
+
+.contacto{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 50px 0px;
+}
+
+
+/* FIN DEL CONTENIDO */
+
+
+/* ASIDE */
+
+
+aside{
+    background: #000000;
+    font-family: martian mono;
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+aside h3{
+    color: #ffffff;
+    padding: 8px 6px;
+}
+
+aside li{
+    padding: 3px;
+}
+
+aside li a{
+    margin: 2px 4px;
+    color: rgb(92, 201, 255);
+    text-decoration: none;
+}
+
+/* FIN DEL ASIDE */
+
+
+/* COPYRIGHT */
+
+#copy{
+    text-align: center;
+    font-family: roboto;
+    font-size: 32px;
+    color: #ffffff;
+    background: #000000;
+    padding: 25px 10px;
+}
+
+/* FIN DEL COPYRIGHT */
+
+@media (max-width:500px) {
+
+    header{
+        text-align: right;
+        display: block;
+    }
+
+    #copy{
+        margin-bottom: 0px;
+    }
+
+    .mensaje{
+        margin: 50px;
+    }
+ 
+}
