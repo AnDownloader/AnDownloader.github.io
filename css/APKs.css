@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka+One&family=Kenia&family=Martian+Mono&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* TITULO */
+
+header{
+    display: flex;
+    background: #00ff40;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#titulo{
+    font-family: kenia;
+    color: #000000;
+    padding: 8px 8px;                                                                                                           
+}
+
+/* BARRA DE NAVEGACION */
+
+nav ul{
+    margin: 0px 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 8px 8px;
+    font-family: verdana;
+    font-weight: lighter;
+    padding-top: 16px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 4px 4px;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid #ffffff;
+    color: #ffffffa1;
+}
+
+nav ul #select a{
+    color: #ffffffa0;
+}
+
+/* TEXTOS Y ENTRADA */
+
+#entrada{
+    text-align: center;
+    color: #000000;
+    padding: 20px 20px;
+    font-family: fredoka one;
+    font-size: 30px;
+}
+
+/* BARRA DE BUDQUEDA */
+
+#buscador{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#buscador input{
+    height: 30px;
+    width: 320px;
+    border-radius: 30px;
+    padding: 4px;
+    padding-left: 8px;
+    font-size: 20px;
+    margin: 20px;
+    outline: none;
+}
+
+/* APKS */
+
+.apks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* APK a01 */
+
+#apka01 button{
+    margin: 30px 12px;
+    border: solid 4px #c3bbbb;
+    padding: 6px 6px;
+    background: #beb5b53b;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+#apka01 img{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+#apka01 button a{
+    color: #000000;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+/* FIN APK a01 */
+
+/* APK a02 */
+
+#apka02 button{
+    margin: 30px 12px;
+    border: solid 4px #c3bbbb;
+    padding: 6px 6px;
+    background: #beb5b53b;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+#apka02 img{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+#apka02 button a{
+    color: #000000;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+/* FIN APK a02 */
+
+/* APK a03 */
+
+#apka03 button{
+    margin: 30px 12px;
+    border: solid 4px #c3bbbb;
+    padding: 6px 6px;
+    background: #beb5b53b;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+#apka03 img{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+#apka03 button a{
+    color: #000000;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+/* FIN APK a03 */
+
+/* APK a04 */
+
+#apka04 button{
+    margin: 30px 12px;
+    border: solid 4px #c3bbbb;
+    padding: 6px 6px;
+    background: #beb5b53b;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+#apka04 img{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+#apka04 button a{
+    color: #000000;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+/* FIN APK a04 */
+
+/* ASIDE */
+
+aside{
+    background: #000000;
+    font-family: martian mono;
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+aside h3{
+    color: #ffffff;
+    padding: 8px 6px;
+}
+
+aside li{
+    padding: 3px;
+}
+
+aside li a{
+    margin: 2px 4px;
+    color: rgb(92, 201, 255);
+    text-decoration: none;
+}
+
+/* FIN DEL ASIDE */
+
+
+/* COPYRIGHT */
+
+#copy{
+    text-align: center;
+    font-family: roboto;
+    font-size: 32px;
+    color: #ffffff;
+    background: #000000;
+    padding: 25px 10px;
+}
+
+@media (max-width:500px) {
+
+    header{
+        text-align: center;
+        display: block;
+    }
+
+    nav ul {
+        align-items: center;
+        display: inline-block;
+        margin-left: 0px;
+        padding-bottom: 8px;
+    }
+
+    nav ul li{
+        font-size: 18px;
+        font-family: verdana;
+        font-weight: bold;
+    }
+
+    #entrada{
+        font-size: 25px;
+    }
+
+    .apks{
+        justify-content: space-evenly;
+    }
+
+    #apka01 button{
+        margin: 30px 12px;
+        border: solid 4px #c3bbbb;
+        padding: 6px 6px;
+        background: #beb5b53b;
+        height: 180px;
+        width: 180px;
+        font-size: 16px;
+        border-radius: 15px;
+    }
+    
+    #apka01 img{
+        height: 80px;
+        width: 80px;
+        border-radius: 14px;
+    }
+
+    #apka02 button{
+        margin: 30px 12px;
+        border: solid 4px #c3bbbb;
+        padding: 6px 6px;
+        background: #beb5b53b;
+        height: 180px;
+        width: 180px;
+        font-size: 16px;
+        border-radius: 15px;
+    }
+    
+    #apka02 img{
+        height: 80px;
+        width: 80px;
+        border-radius: 14px;
+    }
+
+    #apka03 button{
+        margin: 30px 12px;
+        border: solid 4px #c3bbbb;
+        padding: 6px 6px;
+        background: #beb5b53b;
+        height: 180px;
+        width: 180px;
+        font-size: 16px;
+        border-radius: 15px;
+    }
+    
+    #apka03 img{
+        height: 80px;
+        width: 80px;
+        border-radius: 14px;
+    }
+
+    #apka04 button{
+        margin: 30px 12px;
+        border: solid 4px #c3bbbb;
+        padding: 6px 6px;
+        background: #beb5b53b;
+        height: 180px;
+        width: 180px;
+        font-size: 16px;
+        border-radius: 15px;
+    }
+    
+    #apka04 img{
+        height: 80px;
+        width: 80px;
+        border-radius: 14px;
+    }
+
+}
